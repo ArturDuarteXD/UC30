@@ -49,7 +49,6 @@ while executando:
         print("\n--- INFORMAÇÕES DE INCLUSÃO ALIMENTAR ---")
         for item in cardapio:
             print(f"{item['nome']}: {item['tags']}")
-        print("\n* Dica: Sempre pergunte ao atendente sobre contaminação cruzada.")
 
     elif escolha == "3":
         print("\n--- OBJETIVO ODS 10 ---")
