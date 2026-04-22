@@ -1,23 +1,23 @@
 cardapio = [
     {
         "id": "1", 
-        "nome": "Prato Feito Popular", 
+        "nome": "Prato Feito", 
         "preco": 15.00, 
-        "desc": "Arroz, feijão, farofa e ovo frito. Opção barata e nutritiva.",
+        "desc": "Arroz, feijão, farofa e ovo mexido. Opção barata e nutritiva.",
         "tags": "Contém Glúten, Vegetariano"
     },
     {
         "id": "2", 
         "nome": "Salada Completa", 
         "preco": 20.00, 
-        "desc": "Mix de folhas, tomate, cenoura e grão de bico.",
+        "desc": "Mix de folhas, tomate, e cenoura.",
         "tags": "Vegano, Sem Glúten"
     },
     {
         "id": "3", 
         "nome": "Sopa de Legumes", 
         "preco": 12.00, 
-        "desc": "Sopa quente com batata, cenoura e macarrão.",
+        "desc": "Sopa quente,com batata, cenoura e macarrão.",
         "tags": "Vegetariano"
     }
 ]
@@ -25,18 +25,18 @@ cardapio = [
 # --- FUNÇÃO PRINCIPAL ---
 print("=======================================")
 print("     CARDÁPIO DIGITAL INCLUSIVO        ")
-print("   Feito por: Artur Duarte, Lucas Carlos.   ")
+print("   Feito por: Artur D., Lucas C., Vinicius L.   ")
 print("=======================================")
 executando = True
 
 while executando:
     print("\nMENU PRINCIPAL:")
-    print("1 - Listar todos os pratos")
-    print("2 - Informações sobre Alérgenos e Dieta")
-    print("3 - Sobre este projeto (ODS 10)")
+    print("1 - Menu principal")
+    print("2 - Informações para alérgicos")
+    print("3 - Sobre o nosso projeto (ODS 10)")
     print("0 - Sair")
     
-    escolha = input("\nDigite o número da opção desejada: ")
+    escolha = input("\nDigite o número da opção desejada!: ")
 
     if escolha == "1":
         print("\n--- LISTA DE PRATOS ---")
@@ -52,14 +52,14 @@ while executando:
 
     elif escolha == "3":
         print("\n--- OBJETIVO ODS 10 ---")
-        print("Este sistema simplificado reduz a desigualdade ao:")
+        print("O nosso sistema visa reduzir a desigualdade à:")
         print("- Facilitar a leitura para quem tem dificuldade visual.")
-        print("- Fornecer informações claras sobre o que há na comida.")
-        print("- Ser leve e rodar em qualquer celular ou computador antigo.")
+        print("- Fornecer informações claras sobre a comida.")
+        print("- Ser simples e rodar em qualquer dispositivo.")
 
     elif escolha == "0":
-        print("\nObrigado por usar o sistema! Até logo.")
+        print("\nObrigado por usar o sistema! Até logo!")
         executando = False
     
     else:
-        print("\n[Erro] Opção inválida. Use apenas os números do menu.")
+        print("\n[Erro] Opção inválida! Use apenas os números do menu!")
