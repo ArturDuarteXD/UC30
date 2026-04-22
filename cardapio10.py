@@ -22,7 +22,6 @@ cardapio = [
     }
 ]
 
-# --- FUNÇÃO PRINCIPAL ---
 print("=======================================")
 print("     CARDÁPIO DIGITAL INCLUSIVO        ")
 print("   Feito por: Artur D., Lucas C., Vinicius L.   ")
